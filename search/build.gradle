@@ -44,7 +44,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
-    testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:${rootProject.ext.kotlin_version}"
@@ -53,4 +52,9 @@ dependencies {
     implementation "com.squareup.retrofit2:adapter-rxjava2:${rootProject.ext.rxRetrofitAdapterVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${rootProject.ext.gsonRetrofitConverterVersion}"
     implementation "com.google.code.gson:gson:${rootProject.ext.gsonVersion}"
+    testImplementation 'junit:junit:4.12'
+    testImplementation "org.assertj:assertj-core:3.13.1"
+    testImplementation "org.mockito:mockito-inline:2.25.0"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
+
 }
