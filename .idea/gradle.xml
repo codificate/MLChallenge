@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/rest" />
             <option value="$PROJECT_DIR$/search" />
+            <option value="$PROJECT_DIR$/sharedresources" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

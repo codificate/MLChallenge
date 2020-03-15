@@ -1,2 +1,2 @@
-include ':app', ':rest', ':search'
+include ':app', ':rest', ':search', ':sharedresources'
 rootProject.name='MLChallenge'
