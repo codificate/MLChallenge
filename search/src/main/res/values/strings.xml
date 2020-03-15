@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Search</string>
+    <string name="categories_title">Categorías</string>
+    <string name="category_name">Autos, Motos y Otros</string>
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mlCategoriesBackground">#ededed</color>
+    <color name="mlCategoriesTitle">#666</color>
+    <color name="mlCategoriesItem">#3f3f3f</color>
+</resources>
