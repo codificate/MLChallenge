@@ -31,13 +31,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
+    <EditText
         android:id="@+id/search_products_box"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/proxima_nova_thin"
+        android:textColor="@color/mlSearchProductText"
         android:background="@drawable/search_background"
         app:layout_constraintEnd_toStartOf="@+id/searchButton"
         app:layout_constraintStart_toEndOf="@+id/categoriesButton"
@@ -72,6 +74,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo__small_ml" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoriesRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_search_header"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <com.candidate.servando.search.ui.CategoriesView
         android:id="@+id/categoriesList"
