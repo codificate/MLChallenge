@@ -13,6 +13,13 @@
         app:layout_constraintGuide_percent="0.15"
         android:orientation="horizontal"/>
 
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_categories_view"
+        app:layout_constraintGuide_percent="0.6"
+        android:orientation="horizontal"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -65,5 +72,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo__small_ml" />
+
+    <com.candidate.servando.search.ui.CategoriesView
+        android:id="@+id/categoriesList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_search_header"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_categories_view"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
